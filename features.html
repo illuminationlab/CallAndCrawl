@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pest Control Software Features | Call and Crawl</title>
+  <meta name="description" content="CRM, booking, SMS, email, funnels, reviews, invoicing, and two AI agents in one pest control platform. Built for residential, commercial, termite, and wildlife.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=13">
+  <link rel="icon" type="image/png" sizes="32x32" href="public/brand/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="public/brand/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="public/brand/apple-touch-icon.png">
+  <script>window.SITE_CONFIG = { source_site: "cc" };</script>
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="container">
+      New: Voice AI answers pest control calls 24/7 &mdash; books the job before you finish the stop you are on &mdash; <a href="book-demo.html">See it live</a>
+      <button class="announcement-close" aria-label="Close announcement" style="background:none;border:none;color:inherit;margin-left:16px;cursor:pointer;font-size:1.1rem;">&times;</button>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header has-announcement">
+    <div class="header-inner">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="public/brand/logo-header.svg" alt="Call and Crawl" height="36" width="36" style="display:block;">
+          Call<span>and Crawl</span>
+        </a>
+
+        <nav class="nav-main" aria-label="Main navigation">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="features.html" class="nav-link active">Features</a>
+          <a href="use-cases.html" class="nav-link">Use Cases</a>
+          <a href="pricing.html" class="nav-link">Pricing</a>
+          <div class="nav-item">
+            <a href="resources/index.html" class="nav-link">
+              Resources
+              <svg class="chevron" viewBox="0 0 12 8" fill="none"><path d="M1 1.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <div class="dropdown">
+              <a href="resources/blog.html" class="dropdown-link">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                Blog
+              </a>
+              <a href="resources/playbook.html" class="dropdown-link">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                Marketing Playbook
+              </a>
+              <a href="resources/revenue-calculator.html" class="dropdown-link">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="12" y2="14"/></svg>
+                Revenue Calculator
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="resources/getting-started.html" class="dropdown-link">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                Getting Started Guide
+              </a>
+            </div>
+          </div>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="header-cta">
+          <a href="book-demo.html" class="btn btn-primary btn-sm">
+            Book a Demo
+            <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+
+        <button class="mobile-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <div class="mobile-nav-item"><a href="index.html" class="mobile-nav-link">Home</a></div>
+    <div class="mobile-nav-item"><a href="features.html" class="mobile-nav-link">Features</a></div>
+    <div class="mobile-nav-item"><a href="use-cases.html" class="mobile-nav-link">Use Cases</a></div>
+    <div class="mobile-nav-item"><a href="pricing.html" class="mobile-nav-link">Pricing</a></div>
+    <div class="mobile-nav-item">
+      <a href="#" class="mobile-nav-link" data-toggle>
+        Resources
+        <svg class="chevron" width="12" height="8" viewBox="0 0 12 8" fill="none"><path d="M1 1.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <div class="mobile-submenu">
+        <a href="resources/blog.html">Blog</a>
+        <a href="resources/playbook.html">Marketing Playbook</a>
+        <a href="resources/revenue-calculator.html">Revenue Calculator</a>
+        <a href="resources/getting-started.html">Getting Started Guide</a>
+      </div>
+    </div>
+    <div class="mobile-nav-item"><a href="about.html" class="mobile-nav-link">About</a></div>
+    <div class="mobile-nav-item"><a href="contact.html" class="mobile-nav-link">Contact</a></div>
+    <div style="padding:24px 0;">
+      <a href="book-demo.html" class="btn btn-primary" style="width:100%;justify-content:center;">Book a Demo</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ===== PAGE HERO ===== -->
+    <section class="page-hero section--dark">
+      <div class="hero-glow"></div>
+      <div class="container">
+        <div class="hero-content reveal" style="max-width:900px;margin:0 auto;text-align:center;">
+          <div class="hero-eyebrow" style="margin:0 auto 24px;">
+            <span class="dot"></span>
+            The Complete Feature Set
+          </div>
+          <h1>Every tool a pest control business needs.<br><span class="highlight">One platform. No duct tape.</span></h1>
+          <p>Call and Crawl consolidates the stack most pest control shops are running across five or six different apps into a single, white-labeled platform. Features are organized the way your day works &mdash; communication first, automation second, AI on top of everything, then analytics, then marketing.</p>
+          <div class="hero-buttons" style="justify-content:center;">
+            <a href="book-demo.html" class="btn btn-primary btn-lg">
+              Book a Demo
+              <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="pricing.html" class="btn btn-outline">See Pricing</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== AI TOOLS INTRO ===== -->
+    <section class="section section--dark">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="section-eyebrow">AI Tools</span>
+          <h2>The two agents that answer when you cannot.</h2>
+          <p>This is where Call and Crawl departs from every other pest control CRM on the market. Most competitors bolt a ChatGPT-style widget on the website and call it AI. We ship two separate, production-grade AI agents &mdash; one for voice, one for text &mdash; and they share context, knowledge base, and calendar.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Voice AI split -->
+    <section class="section section--darker" id="voice-ai">
+      <div class="container">
+        <div class="split reveal">
+          <div class="split-content">
+            <span class="section-eyebrow">Voice AI</span>
+            <h2>Your 24/7 AI receptionist.</h2>
+            <p>Voice AI is a phone-based AI agent that answers inbound calls in a natural, human-sounding voice and takes real action during the call. It is not a menu tree. It is not a voicemail transcriber. It is a conversational agent with access to your live calendar, your CRM, your service menu, and your business rules.</p>
+            <ul class="checklist" style="margin-bottom:32px;">
+              <li><svg viewBox="0 0 20 20" fill="none"><path d="M16.667 5L7.5 14.167 3.333 10" stroke="#6b3a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Answers on the first ring</strong> with a greeting you script, using advanced speech recognition and natural language understanding.</li>
+              <li><svg viewBox="0 0 20 20" fill="none"><path d="M16.667 5L7.5 14.167 3.333 10" stroke="#6b3a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Books the job</strong> by looking at your live calendar, suggesting open slots, and writing the appointment directly into your schedule.</li>
+              <li><svg viewBox="0 0 20 20" fill="none"><path d="M16.667 5L7.5 14.167 3.333 10" stroke="#6b3a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Creates the CRM record</strong> mid-call &mdash; contact, opportunity, pest issue, urgency, notes.</li>
+              <li><svg viewBox="0 0 20 20" fill="none"><path d="M16.667 5L7.5 14.167 3.333 10" stroke="#6b3a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Triggers workflows</strong> during or after the call &mdash; follow-up SMS, team notification, pipeline stage change, quote email.</li>
+              <li><svg viewBox="0 0 20 20" fill="none"><path d="M16.667 5L7.5 14.167 3.333 10" stroke="#6b3a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Transfers to a human</strong> when the caller asks, or on high-intent signals you define: commercial account, termite inspection, wildlife emergency.</li>
+              <li><svg viewBox="0 0 20 20" fill="none"><path d="M16.667 5L7.5 14.167 3.333 10" stroke="#6b3a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Sends the confirmation text</strong> automatically &mdash; appointment details, payment link, pre-service checklist, tech bio.</li>
+              <li><svg viewBox="0 0 20 20" fill="none"><path d="M16.667 5L7.5 14.167 3.333 10" stroke="#6b3a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Makes outbound calls</strong> from a workflow trigger &mdash; follow up on a form fill in seconds, confirm tomorrow&rsquo;s appointments, re-engage a lapsed quarterly.</li>
+              <li><svg viewBox="0 0 20 20" fill="none"><path d="M16.667 5L7.5 14.167 3.333 10" stroke="#6b3a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>200+ voices,</strong> tunable tone, pace, language, personality. Voice AI chat widget embeds on your site &mdash; visitors speak live in the browser.</li>
+              <li><svg viewBox="0 0 20 20" fill="none"><path d="M16.667 5L7.5 14.167 3.333 10" stroke="#6b3a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Post-call summaries and sentiment scores</strong> logged in the dashboard. Works on LC Phone and Twilio numbers.</li>
+            </ul>
+            <a href="book-demo.html" class="btn btn-primary">See Voice AI in action<svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+          <div class="split-visual" style="aspect-ratio:auto;background:transparent;border:none;overflow:visible;display:block;">
+            <div class="card card-gradient" style="padding:36px;">
+              <div style="display:flex;align-items:center;gap:14px;margin-bottom:24px;">
+                <div style="width:44px;height:44px;border-radius:50%;background:var(--color-accent);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0B0B0B" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/></svg>
+                </div>
+                <div>
+                  <div style="font-weight:600;">Voice AI &mdash; Live Call</div>
+                  <div style="font-size:0.85rem;color:var(--color-text-secondary);">Inbound &middot; Saturday 10:14 PM</div>
+                </div>
+              </div>
+              <div style="background:rgba(255,255,255,0.04);border-radius:14px;padding:16px 18px;margin-bottom:12px;line-height:1.5;">
+                <div style="font-size:0.7rem;letter-spacing:0.08em;color:var(--color-text-muted);margin-bottom:6px;text-transform:uppercase;">Caller</div>
+                <div>&ldquo;I just saw a roach in my kitchen. Can someone come tomorrow?&rdquo;</div>
+              </div>
+              <div style="background:rgba(107,58,31,0.08);border:1px solid rgba(107,58,31,0.22);border-radius:14px;padding:16px 18px;margin-bottom:16px;line-height:1.5;">
+                <div style="font-size:0.7rem;letter-spacing:0.08em;color:var(--color-accent);margin-bottom:6px;text-transform:uppercase;">Voice AI</div>
+                <div>&ldquo;Absolutely &mdash; we can get a tech out tomorrow. I have 9:30 or 1:15 open. Which works better?&rdquo;</div>
+              </div>
+              <div style="display:flex;gap:8px;font-size:0.8rem;color:var(--color-text-secondary);flex-wrap:wrap;">
+                <span style="background:var(--color-bg-card);padding:6px 12px;border-radius:999px;">&check; Booked 9:30</span>
+                <span style="background:var(--color-bg-card);padding:6px 12px;border-radius:999px;">&check; Contact created</span>
+                <span style="background:var(--color-bg-card);padding:6px 12px;border-radius:999px;">&check; Confirmation sent</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conversation AI split (chat card on left, copy on right) -->
+    <section class="section section--dark" id="conversation-ai">
+      <div class="container">
+        <div class="split reveal">
+          <div class="split-visual" style="aspect-ratio:auto;background:transparent;border:none;overflow:visible;display:block;">
+            <div class="card card-gradient" style="padding:36px;">
+              <div style="font-size:0.75rem;letter-spacing:0.08em;color:var(--color-text-muted);margin-bottom:18px;text-transform:uppercase;">Facebook Messenger</div>
+              <div style="background:rgba(255,255,255,0.04);border-radius:14px;padding:16px 18px;margin-bottom:12px;line-height:1.5;">&ldquo;Do you guys do bats in the attic? How much?&rdquo;</div>
+              <div style="background:rgba(107,58,31,0.08);border:1px solid rgba(107,58,31,0.22);border-radius:14px;padding:16px 18px;margin-bottom:12px;line-height:1.5;"><div style="font-size:0.7rem;letter-spacing:0.08em;color:var(--color-accent);margin-bottom:6px;text-transform:uppercase;">Conversation AI</div>We do &mdash; bat exclusion is a specialty. Inspection is the first step, typically $150&ndash;$250 depending on structure. Want me to check availability this week?</div>
+              <div style="background:rgba(255,255,255,0.04);border-radius:14px;padding:16px 18px;margin-bottom:12px;line-height:1.5;">&ldquo;Yes, Thursday morning if possible.&rdquo;</div>
+              <div style="background:rgba(107,58,31,0.08);border:1px solid rgba(107,58,31,0.22);border-radius:14px;padding:16px 18px;line-height:1.5;"><div style="font-size:0.7rem;letter-spacing:0.08em;color:var(--color-accent);margin-bottom:6px;text-transform:uppercase;">Conversation AI</div>Booked &mdash; Thursday 9am with our wildlife tech. Confirmation texted.</div>
+            </div>
+          </div>
+          <div class="split-content">
+            <span class="section-eyebrow">Conversation AI</span>
+            <h2>Instant answers on every written channel.</h2>
+            <p>Conversation AI lives on your website chat widget and inside every messaging channel you have: SMS, email, Facebook Messenger, Instagram DMs, WhatsApp, Google Business messages, live chat. It engages visitors and leads 24/7 with natural, human-like written responses.</p>
+            <ul class="checklist" style="margin-bottom:32px;">
+              <li><svg viewBox="0 0 20 20" fill="none"><path d="M16.667 5L7.5 14.167 3.333 10" stroke="#6b3a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Answers any question</strong> from a custom knowledge base you own and can edit anytime &mdash; documents, FAQs, a crawled version of your website, uploaded PDFs, service menus.</li>
+              <li><svg viewBox="0 0 20 20" fill="none"><path d="M16.667 5L7.5 14.167 3.333 10" stroke="#6b3a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Qualifies leads</strong> by collecting name, contact info, pest issue, service interest, and urgency through natural conversation.</li>
+              <li><svg viewBox="0 0 20 20" fill="none"><path d="M16.667 5L7.5 14.167 3.333 10" stroke="#6b3a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Books appointments</strong> directly in the chat flow without handing off.</li>
+              <li><svg viewBox="0 0 20 20" fill="none"><path d="M16.667 5L7.5 14.167 3.333 10" stroke="#6b3a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Escalates to a human</strong> when the visitor asks, or on triggers you define.</li>
+              <li><svg viewBox="0 0 20 20" fill="none"><path d="M16.667 5L7.5 14.167 3.333 10" stroke="#6b3a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Understands audio messages</strong> on mobile &mdash; visitors hold to talk, the AI extracts intent and details.</li>
+              <li><svg viewBox="0 0 20 20" fill="none"><path d="M16.667 5L7.5 14.167 3.333 10" stroke="#6b3a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Maintains context</strong> across a conversation so it does not ask the same question twice.</li>
+              <li><svg viewBox="0 0 20 20" fill="none"><path d="M16.667 5L7.5 14.167 3.333 10" stroke="#6b3a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Suggestive or fully automated</strong> mode, per channel &mdash; drafts for approval or handles end-to-end.</li>
+              <li><svg viewBox="0 0 20 20" fill="none"><path d="M16.667 5L7.5 14.167 3.333 10" stroke="#6b3a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Shares the unified inbox</strong> with every other conversation &mdash; SMS, email, DMs, live chat &mdash; so nothing lives in a silo.</li>
+            </ul>
+            <a href="book-demo.html" class="btn btn-primary">Explore Conversation AI<svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== COMMUNICATION ===== -->
+    <section class="section section--darker" id="communication">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="section-eyebrow">Communication</span>
+          <h2>The phone, the inbox, the thread.</h2>
+        </div>
+        <div class="grid grid-3">
+          <div class="card card-gradient feature-card reveal" id="unified-inbox">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg></div>
+            <h3>Unified Inbox</h3>
+            <p>Every conversation in one place: inbound calls, voicemails, SMS, email, web chat, Facebook Messenger, Instagram DMs, WhatsApp, Google Business messages. No more tab-switching between Gmail and the texting app and the Facebook page.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal reveal-delay-1" id="sms">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></div>
+            <h3>Two-Way SMS and Messaging</h3>
+            <p>Text your customers from your business number. Send pre-job confirmations, en-route alerts, post-service summaries, and one-off &ldquo;we noticed ants are early this year&rdquo; blasts. Stop showing up to empty driveways.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal reveal-delay-2" id="call-tracking">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+            <h3>Call Tracking and Recording</h3>
+            <p>Every inbound and outbound call logged against the contact record. Review calls for training. Track which marketing channels are actually ringing the phone &mdash; so you can stop guessing whether Google Local Services ads are pulling their weight.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal" id="missed-call-text-back">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+            <h3>Missed Call Text-Back</h3>
+            <p>The instant a call goes unanswered, the caller gets an SMS: &ldquo;Sorry we missed you &mdash; we can help, what is the issue?&rdquo; Recover the calls you are missing today without hiring an answering service.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal reveal-delay-1" id="mobile-app">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+            <h3>White-Label Mobile App</h3>
+            <p>The whole platform in a branded app your techs install. Notifications for new leads, appointment changes, inbound messages. Push a job to a tech at 2pm without a phone call.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal reveal-delay-2" id="ai-workflow-builder">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+            <h3>AI-Powered Workflow Builder</h3>
+            <p>Describe a workflow in plain English &mdash; &ldquo;when a new termite lead comes in, send a PDF bond explainer, wait two days, and if they have not booked, text me&rdquo; &mdash; and the AI builds the triggers, actions, and logic.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== AUTOMATION ===== -->
+    <section class="section section--dark" id="automation">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="section-eyebrow">Automation</span>
+          <h2>The workflows that run in the background.</h2>
+        </div>
+        <div class="grid grid-2">
+          <div class="card card-gradient feature-card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></div>
+            <h3>Automation Workflows</h3>
+            <p>Drag-and-drop workflow builder with if/then logic. Prebuilt pest control templates: new-lead intake, appointment reminders, post-job review request, quarterly renewal, winback, seasonal promotion, commercial audit-prep.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal reveal-delay-1">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+            <h3>Appointment Reminders</h3>
+            <p>Automated SMS and email reminders at 24h, 2h, and 30min before the job. Confirm, reschedule, or cancel from a link. Cut no-shows without making reminder calls yourself.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CRM & PIPELINE ===== -->
+    <section class="section section--darker" id="crm">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="section-eyebrow">CRM and Pipeline</span>
+          <h2>The system of record for every lead and every account.</h2>
+        </div>
+        <div class="grid grid-2">
+          <div class="card card-gradient feature-card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+            <h3>CRM and Lead Pipeline</h3>
+            <p>Every contact, every interaction, every job, every note in one customer record. Tag by pest, by service type, by route day, by account type &mdash; residential, commercial, HOA, property manager, realtor referral. Pull up &ldquo;every quarterly in the 32080 zip that has not been serviced in 95+ days&rdquo; in two clicks.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal reveal-delay-1">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+            <h3>Customer and Service History</h3>
+            <p>Full audit trail of every treatment, every product applied (via uploaded docs and photos), every callback, every note from every tech, attached to the contact. When the homeowner calls asking &ldquo;you guys were here last April,&rdquo; you actually know.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal reveal-delay-1">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 15l2 2 4-4"/></svg></div>
+            <h3>Document Signing</h3>
+            <p>Send termite bonds, commercial service agreements, WDI reports, and renewal contracts for e-signature. Signed documents attach to the contact record automatically. Close a termite bond from a truck without printing anything.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal reveal-delay-2">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h18l-7 10v6l-4-2v-4L3 3z"/></svg></div>
+            <h3>Forms, Funnels, and Landing Pages</h3>
+            <p>Drag-and-drop builder for service pages, quote request forms, seasonal promotion landers, free-inspection offers, commercial RFP forms. AI can generate a full page from a prompt. Launch a &ldquo;Fall Rodent Inspection&rdquo; campaign Monday morning without calling the web guy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SCHEDULING ===== -->
+    <section class="section section--dark" id="scheduling">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="section-eyebrow">Scheduling and Dispatch</span>
+          <h2>Route days, recurring contracts, one calendar.</h2>
+        </div>
+        <div class="grid grid-2">
+          <div class="card card-gradient feature-card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+            <h3>Scheduling, Booking, and Appointments</h3>
+            <p>Calendar views by tech, by route day, by service type. Customers book themselves from your website, your Google Business listing, your email signature, or a text link. Syncs with Google Calendar and Outlook. The homeowner at 11pm books a Thursday 10am inspection without waiting for the office to open.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal reveal-delay-1">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><polyline points="21 3 21 8 16 8"/></svg></div>
+            <h3>Recurring Service Contract Management</h3>
+            <p>Track quarterlies, monthlies, annuals, termite bonds, mosquito subscriptions, and commercial accounts. Automatically generate the next service date, the next invoice, and the next reminder. Quarterly accounts do not quietly drift because nobody rebooked them.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== REPUTATION ===== -->
+    <section class="section section--darker" id="reputation">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="section-eyebrow">Reputation Management</span>
+          <h2>More reviews. Every one answered.</h2>
+        </div>
+        <div class="grid grid-2">
+          <div class="card card-gradient feature-card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+            <h3>Review Requests</h3>
+            <p>Automated post-job SMS and email requests with a Google review link. A smart filter catches unhappy customers privately so you can resolve the issue before it becomes a one-star review.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal reveal-delay-1" id="reputation-ai">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
+            <h3>Reputation AI</h3>
+            <p>Auto-responds to reviews &mdash; good, bad, and in-between &mdash; in a natural, human-like tone you tune. Drafts replies for approval, or posts automatically. Keep a 100 percent response rate on Google without writing a hundred responses a month.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MARKETING ===== -->
+    <section class="section section--dark" id="marketing">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="section-eyebrow">Marketing</span>
+          <h2>Email, SMS, social, ads &mdash; all from one seat.</h2>
+        </div>
+        <div class="grid grid-3">
+          <div class="card card-gradient feature-card reveal" id="email">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <h3>Email Marketing and Campaigns</h3>
+            <p>Build, schedule, and send branded email campaigns. Segment by pest issue, service type, zip code, account age, last-service date. Prebuilt seasonal templates: spring swarmers, summer mosquitoes, fall rodents, winter bed bugs.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal reveal-delay-1" id="broadcast">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg></div>
+            <h3>Broadcast Campaigns</h3>
+            <p>Send email, SMS, WhatsApp, or Messenger broadcasts to any segment. Weather-reactive messages, new-service launches, fall-rodent specials &mdash; text 600 quarterly accounts in ten minutes.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal reveal-delay-2" id="social">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg></div>
+            <h3>Social Media Planner</h3>
+            <p>Schedule posts across Facebook, Instagram, Google Business, LinkedIn. Pest-specific content templates and seasonal photo prompts. Your Facebook page does not look abandoned in February.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal" id="ads">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg></div>
+            <h3>Ad Manager</h3>
+            <p>Run and track Google, Facebook, and Instagram ad campaigns inside the platform. Connect spend to booked jobs via call tracking. Finally know if the Facebook boost is doing anything.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal reveal-delay-1" id="funnel-builder">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h18l-7 10v6l-4-2v-4L3 3z"/></svg></div>
+            <h3>Funnel and Website AI Builder</h3>
+            <p>Generate a full landing page or funnel from a prompt &mdash; &ldquo;free termite inspection in Mobile AL, photo gallery, booking form&rdquo; &mdash; and the AI builds it. Spin up a seasonal campaign page without touching code.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal reveal-delay-2" id="content-ai">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+            <h3>Content AI</h3>
+            <p>On-brand copy, images, and ideas in seconds. Blog posts, service page copy, email subject lines, social captions, ad creative. Stop staring at a blank page on a Sunday night.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INVOICING / MEMBERSHIP ===== -->
+    <section class="section section--darker" id="payments">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="section-eyebrow">Invoicing, Payments, and Membership</span>
+          <h2>Get paid on Friday, not next Tuesday.</h2>
+        </div>
+        <div class="grid grid-3">
+          <div class="card card-gradient feature-card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg></div>
+            <h3>Invoicing and Payments</h3>
+            <p>Generate invoices automatically from completed jobs. Text a payment link. Accept card, ACH, Apple Pay, Google Pay. Recurring billing for quarterlies, monthlies, and termite bonds. Stop chasing invoices on a Friday afternoon.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal reveal-delay-1" id="affiliate">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><polyline points="17 11 19 13 23 9"/></svg></div>
+            <h3>Affiliate Manager</h3>
+            <p>Referral program for realtors, property managers, and past customers. Track referrals, pay commissions, generate leaderboards. The realtor who sent you three inspections last month actually gets paid on time.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal reveal-delay-2" id="membership">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+            <h3>Membership and Course Portals</h3>
+            <p>Host tech training videos, onboarding courses, commercial client portals, or premium content for a VIP subscription tier. New-hire training does not eat your Saturdays.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ANALYTICS ===== -->
+    <section class="section section--dark" id="analytics">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="section-eyebrow">Analytics</span>
+          <h2>Decisions from a dashboard, not a gut feel.</h2>
+        </div>
+        <div class="grid grid-2" style="max-width:860px;margin:0 auto;">
+          <div class="card card-gradient feature-card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
+            <h3>Tracking and Analytics Dashboards</h3>
+            <p>Where leads came from, which campaigns converted, which techs closed the most, which route days ran light, which zip codes paid best. Live, filterable, exportable.</p>
+          </div>
+          <div class="card card-gradient feature-card reveal reveal-delay-1">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+            <h3>Call and Conversion Attribution</h3>
+            <p>Every booked job tied back to the campaign, the channel, the tracking number, the ad spend. Know what is working, drop what is not, double down on what pays.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 5-TOOL COMPARISON TABLE ===== -->
+    <section class="section section--darker">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="section-eyebrow">The Comparison That Tells the Whole Story</span>
+          <h2>Using five separate tools vs. Call and Crawl.</h2>
+        </div>
+        <div class="card reveal" style="padding:0;overflow:hidden;">
+          <div style="overflow-x:auto;">
+            <table style="width:100%;border-collapse:collapse;">
+              <thead>
+                <tr style="background:rgba(107,58,31,0.08);">
+                  <th style="text-align:left;padding:18px 24px;font-weight:600;border-bottom:1px solid rgba(255,255,255,0.08);">Capability</th>
+                  <th style="text-align:left;padding:18px 24px;font-weight:600;border-bottom:1px solid rgba(255,255,255,0.08);">The Duct-Taped Stack</th>
+                  <th style="text-align:left;padding:18px 24px;font-weight:600;border-bottom:1px solid rgba(255,255,255,0.08);color:var(--color-accent);">Call and Crawl</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);"><strong>CRM and contact records</strong></td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Separate CRM subscription</td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Included</td></tr>
+                <tr><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);"><strong>Scheduling and booking</strong></td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Separate booking tool</td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Included</td></tr>
+                <tr><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);"><strong>SMS and texting</strong></td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Separate texting app</td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Included</td></tr>
+                <tr><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);"><strong>Email marketing</strong></td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Separate email platform</td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Included</td></tr>
+                <tr><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);"><strong>After-hours answering</strong></td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Separate answering service</td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Included (Voice AI)</td></tr>
+                <tr><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);"><strong>Web chat</strong></td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Separate chat widget</td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Included (Conversation AI)</td></tr>
+                <tr><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);"><strong>Review automation</strong></td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Separate reputation tool</td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Included</td></tr>
+                <tr><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);"><strong>Invoicing and payments</strong></td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Separate processor</td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Included</td></tr>
+                <tr><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);"><strong>Funnels and landing pages</strong></td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Separate funnel builder</td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Included</td></tr>
+                <tr><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);"><strong>Call tracking</strong></td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Separate tracking number service</td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Included</td></tr>
+                <tr><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);"><strong>Logins to manage</strong></td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Five to seven</td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">One</td></tr>
+                <tr><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);"><strong>Integrations that break</strong></td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Five to seven</td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Zero</td></tr>
+                <tr><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);"><strong>Monthly bills</strong></td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Five to seven</td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">One</td></tr>
+                <tr><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);"><strong>Pest-control-specific templates</strong></td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Rarely</td><td style="padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.05);">Every feature</td></tr>
+                <tr><td style="padding:16px 24px;"><strong>AI that shares context across channels</strong></td><td style="padding:16px 24px;">Never</td><td style="padding:16px 24px;">Voice AI + Conversation AI</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BOTTOM CTA ===== -->
+    <section class="cta-section section--darker">
+      <div class="container">
+        <h2 class="reveal">Replace the duct tape with one platform.</h2>
+        <p class="reveal" style="max-width:640px;">Every feature above is included. One predictable base fee plus pay-as-you-go for calls, SMS, email, and AI. No long-term contracts.</p>
+        <div class="cta-buttons reveal">
+          <a href="book-demo.html" class="btn btn-primary btn-lg">Book a Demo<svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <a href="pricing.html" class="btn btn-outline">See Pricing</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="public/brand/logo-header.svg" alt="Call and Crawl" height="36" width="36" style="display:block;">
+            Call<span>and Crawl</span>
+          </a>
+          <p>The all-in-one CRM, booking, and AI-receptionist platform built only for pest control. Answer every call. Book every job. Grow.</p></div>
+
+        <div class="footer-col">
+          <h6>Platform</h6>
+          <a href="features.html#voice-ai">Voice AI</a>
+          <a href="features.html#conversation-ai">Conversation AI</a>
+          <a href="features.html#crm">CRM &amp; Pipelines</a>
+          <a href="features.html#scheduling">Scheduling</a>
+          <a href="features.html#automation">Automation</a>
+          <a href="features.html#analytics">Analytics</a>
+          <a href="features.html#reputation">Reputation</a>
+        </div>
+
+        <div class="footer-col">
+          <h6>Use Cases</h6>
+          <a href="use-cases.html#owner-operator">Owner-Operator</a>
+          <a href="use-cases.html#multi-tech">Multi-Tech Shop</a>
+          <a href="use-cases.html#commercial">Commercial &amp; Food Service</a>
+          <a href="use-cases.html#termite">Termite Specialist</a>
+          <a href="use-cases.html#wildlife">Wildlife Operator</a>
+          <a href="use-cases.html#mosquito">Mosquito &amp; Seasonal</a>
+        </div>
+
+        <div class="footer-col">
+          <h6>Company</h6>
+          <a href="about.html">About Us</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="resources/blog.html">Blog</a>
+          <a href="resources/playbook.html">Marketing Playbook</a>
+          <a href="contact.html">Contact</a>
+          <a href="book-demo.html">Book a Demo</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Call and Crawl &mdash; a product of Illumination Lab LLC. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v=13"></script>
+  <!-- Chatbot widget (shared across niches; on all pages) -->
+  <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="685d4d4f63b8b7fec750e753"></script>
+</body>
+</html>
