@@ -164,6 +164,8 @@
         </div>
         <div style="max-width:520px;margin:0 auto;">
           <form data-webhook="https://illuminationlab.app.n8n.cloud/webhook/eec95ff5-878b-41f8-973e-043109387f09" class="form-stack">
+          <!-- honeypot — bots fill this; real users never see it. n8n routes filled submissions to spam tag. -->
+          <input type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none;">
             <input type="hidden" name="source_site" value="cc">
             <input type="hidden" name="form_location" value="pest-newsletter">
             <input type="hidden" name="intent" value="newsletter">
