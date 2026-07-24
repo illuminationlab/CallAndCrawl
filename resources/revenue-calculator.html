@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/styles.css?v=13">
+  <link rel="stylesheet" href="../css/styles.css?v=14">
   <link rel="icon" type="image/png" sizes="32x32" href="../public/brand/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../public/brand/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="../public/brand/apple-touch-icon.png">
@@ -370,8 +370,11 @@
       calc();
     })();
   </script>
-  <script src="../js/main.js?v=13"></script>
+  <script src="../js/main.js?v=14"></script>
   <!-- Chatbot widget (shared across niches; on all pages) -->
-  <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="685d4d4f63b8b7fec750e753"></script>
+  <script>
+/* Lazy-load the chat widget: never covers the hero on first paint. */
+(function(){var done=false;function go(){if(done)return;done=true;var s=document.createElement("script");s.src="https://widgets.leadconnectorhq.com/loader.js";s.setAttribute("data-resources-url","https://widgets.leadconnectorhq.com/chat-widget/loader.js");s.setAttribute("data-widget-id","685d4d4f63b8b7fec750e753");document.body.appendChild(s);evs.forEach(function(e){window.removeEventListener(e,go)});}var evs=["scroll","touchstart","pointerdown","keydown"];evs.forEach(function(e){window.addEventListener(e,go,{passive:true});});setTimeout(go,6000);})();
+</script>
 </body>
 </html>
