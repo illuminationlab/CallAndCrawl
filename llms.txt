@@ -1,0 +1,22 @@
+# Call and Crawl
+
+> The all-in-one CRM, booking, and AI-receptionist platform built only for pest control. Answer every call. Book every job. Grow.
+
+## Pages
+
+- [Home](https://callandcrawl.com/index.html): Overview of the Call and Crawl platform for pest control.
+- [Features](https://callandcrawl.com/features.html): Voice AI, Conversation AI, CRM, scheduling, automation, analytics, reputation.
+- [Use Cases](https://callandcrawl.com/use-cases.html): How the platform fits owner-operators, multi-tech shops, commercial, termite, wildlife, and mosquito businesses.
+- [Starting a Pest Control Business](https://callandcrawl.com/new-business.html): The complete roadmap to starting a pest control business — licensing, insurance, startup costs, pricing, and first customers.
+- [Pricing](https://callandcrawl.com/pricing.html): Plans and pricing.
+- [About](https://callandcrawl.com/about.html): Why Call and Crawl serves only pest control.
+- [Contact](https://callandcrawl.com/contact.html): Get in touch.
+- [Book a Demo](https://callandcrawl.com/book-demo.html): Schedule a live walkthrough.
+
+## Resources
+
+- [Resources](https://callandcrawl.com/resources/index.html): Guides, tools, and playbooks for pest control businesses.
+- [Blog](https://callandcrawl.com/resources/blog.html): Articles for pest control owners.
+- [Marketing Playbook](https://callandcrawl.com/resources/playbook.html): The Pest Control 90-Day Retention Playbook.
+- [Revenue Calculator](https://callandcrawl.com/resources/revenue-calculator.html): The Pest Control Missed-Call Audit.
+- [Getting Started Guide](https://callandcrawl.com/resources/getting-started.html): Onboarding guide.
