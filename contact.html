@@ -144,21 +144,23 @@
 
               <div class="form-row">
                 <div class="form-group">
-                  <label class="form-label" for="fld-first-name">First Name</label>
-                  <input type="text" id="fld-first-name" name="first_name" class="form-input" placeholder="Jane" required>
+                  <label class="form-label" for="fld-name">Name</label>
+                  <input type="text" id="fld-name" name="name" class="form-input" placeholder="Jane Smith" required>
                 </div>
                 <div class="form-group">
-                  <label class="form-label" for="fld-last-name">Last Name</label>
-                  <input type="text" id="fld-last-name" name="last_name" class="form-input" placeholder="Smith" required>
+                  <label class="form-label" for="fld-business">Company</label>
+                  <input type="text" id="fld-business" name="business_name" class="form-input" placeholder="Acme Pest Control" required>
                 </div>
               </div>
-              <div class="form-group">
-                <label class="form-label" for="fld-business">Business Name</label>
-                <input type="text" id="fld-business" name="business_name" class="form-input" placeholder="Acme Pest Control" required>
-              </div>
-              <div class="form-group">
-                <label class="form-label" for="fld-email">Email</label>
-                <input type="email" id="fld-email" name="email" class="form-input" placeholder="jane@acmepest.com" required>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="fld-email">Email</label>
+                  <input type="email" id="fld-email" name="email" class="form-input" placeholder="jane@acmepest.com" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="fld-phone">Phone</label>
+                  <input type="tel" id="fld-phone" name="phone" class="form-input" placeholder="(555) 123-4567" required>
+                </div>
               </div>
               <div class="form-group">
                 <label class="form-label" for="fld-intent">What are you looking for?</label>
@@ -316,8 +318,9 @@
       var intent = d.intent;
       if (!intent) return; // no redirect, default thank you stays
 
-      var firstName = (d.first_name || '').trim();
-      var lastName = (d.last_name || '').trim();
+      var _nm = (d.name || '').trim().split(/\s+/);
+      var firstName = _nm.shift() || '';
+      var lastName = _nm.join(' ');
 
       var prefill = new URLSearchParams();
       if (firstName) prefill.set('first_name', firstName);
